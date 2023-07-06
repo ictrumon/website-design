@@ -3,13 +3,16 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: black;
+    background-color: darkgray;
     padding: 20px;
     color: white;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.logo-photo{
+    width: 120px;
 }
 .menu{
     display: flex;
@@ -22,4 +25,31 @@
 }
 .item:hover{
     color: blue;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(images/background.png), linear-gradient(45deg,#111111,#080808);
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
