@@ -36,6 +36,9 @@
     align-items: center;
     background-image: url(images/background.png), linear-gradient(45deg,#111111,#080808);
     color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 55px;
@@ -52,4 +55,53 @@
     color: white;
     border: none;
     border-radius: 5px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+text-align: center;
+padding-left: 20px;
+}
+.about-para{
+   font-size: 18px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 10px gray;
+    background-color: #111111;
+    text-align: center;
+    padding: 15px;
+    color: white
+}
+.icon{
+    width: 100px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 20px;
+}
+.box-para{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
+.full-box{
+    background-color: beige;
+}
+.fcontainer{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    
 }
